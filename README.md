@@ -1,5 +1,6 @@
 ## Olá, eu sou o Murilo Vantini! 👋
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=murilovantini&color=blue" alt="Profile Views" /> </p>
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MuriloVantini&layout=donut&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
