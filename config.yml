@@ -35,21 +35,24 @@ galaxy_arms:
   - name: "Frontend"
     color: "dendrite_violet"
     items:
-      - "TypeScript"
+      - "Flutter"
       - "React"
-      - "CSS"
+      - "Figma"
+      - "Tailwind CSS"
   - name: "Backend"
     color: "synapse_cyan"
     items:
       - "Laravel"
       - "Spring Boot"
-      - "PostgreSQL"
-  - name: "DevOps"
+      - "SQL"
+      - "Swagger"
+  - name: "Agile"
     color: "axon_amber"
     items:
-      - "Docker"
-      - "GitHub Actions"
-      - "AWS"
+      - "Jira"
+      - "Notion"
+      - "ClickUP"
+      - "GitHub Projects"
 
 # Featured projects shown as constellation stars
 # Each project needs:
@@ -58,7 +61,7 @@ galaxy_arms:
 #   description: "..."        — Short description shown on the card
 projects:
   - repo: "MuriloVantini/backend-mobile2screen"
-    arm: 0
+    arm: 1
     description: "TCC - Backend para aplicativo de compartilhamento de tela em tempo real."
 
 # Theme color overrides (optional — defaults to deep space palette)
