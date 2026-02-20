@@ -30,16 +30,16 @@
 Apaixonado por tecnologia e inovação, com experiência em desenvolvimento de software e engenharia de dados. 
 Atualmente focado em criar soluções eficientes e escaláveis para desafios complexos. Sempre buscando aprender e crescer na área de tecnologia.
 
-**Atualmente em** Engemap - Engenharia e Aerolevantamento — Assis, SP - Brasil
+**Atualmente em** Engemap - Engenharia e Aerolevantamento. Assis, SP - Brasil
 </details>
 
 <br/>
 
 <div align="center">
   <a href="mailto:m.henrique.vantini18@gmail.com">
-    <img src="https://img.shields.io/badge/-Email-080c14?style=for-the-badge&logo=gmail&logoColor=00d4ff" alt="Email"/>
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://www.linkedin.com/in/murilovantini/">
-    <img src="https://img.shields.io/badge/-LinkedIn-080c14?style=for-the-badge&logo=linkedin&logoColor=a78bfa" alt="LinkedIn"/>
+  <a href="https://www.linkedin.com/in/murilo-vantini-9a825a1b8/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
 </div>
