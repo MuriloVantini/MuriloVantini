@@ -63,6 +63,9 @@ projects:
   - repo: "MuriloVantini/backend-mobile2screen"
     arm: 1
     description: "TCC - Backend para aplicativo de compartilhamento de tela em tempo real."
+  - repo: "MuriloVantini/my_first_react_project"
+    arm: 0
+    description: "Consumo de API REST com React - Projeto de estudo pessoal."
 
 # Theme color overrides (optional — defaults to deep space palette)
 # All values must be valid hex color codes (#RRGGBB)
