@@ -3,6 +3,7 @@
 import logging
 import os
 import time
+from datetime import datetime, timedelta, timezone
 
 import requests
 
@@ -67,9 +68,6 @@ class GitHubAPI:
             repositoriesContributedTo(contributionTypes: [COMMIT, PULL_REQUEST, ISSUE]) {
               totalCount
             }
-            pullRequests {
-              totalCount
-            }
             issues {
               totalCount
             }
@@ -81,6 +79,7 @@ class GitHubAPI:
             }
             contributionsCollection {
               totalCommitContributions
+              totalPullRequestContributions
               restrictedContributionsCount
             }
           }
@@ -119,7 +118,7 @@ class GitHubAPI:
         return {
             "commits": total_commits,
             "stars": total_stars,
-            "prs": user["pullRequests"]["totalCount"],
+            "prs": contrib["totalPullRequestContributions"],
             "issues": user["issues"]["totalCount"],
             "repos": repos["totalCount"],
         }
@@ -151,8 +150,11 @@ class GitHubAPI:
             if e.get("type") == "PushEvent"
         )
 
-        # Fetch actual PR count via Search API
-        pr_count = self._search_count(f"author:{self.username} type:pr")
+        # Match GitHub's contribution activity (rolling last 12 months)
+        since = (datetime.now(timezone.utc) - timedelta(days=365)).strftime("%Y-%m-%d")
+        pr_count = self._search_count(
+            f"author:{self.username} type:pr created:>={since}"
+        )
 
         # Fetch actual issue count via Search API
         issue_count = self._search_count(f"author:{self.username} type:issue")
