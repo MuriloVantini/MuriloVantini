@@ -38,6 +38,8 @@ galaxy_arms:
       - "React"
       - "Figma"
       - "Tailwind CSS"
+      - "Experience Builder"
+      - "ArcGIS API for JavaScript"
   - name: "Backend"
     color: "synapse_cyan"
     items:
@@ -45,6 +47,7 @@ galaxy_arms:
       - "Spring Boot"
       - "SQL"
       - "Swagger"
+      - "Postman"
   - name: "Agile"
     color: "axon_amber"
     items:
@@ -53,13 +56,6 @@ galaxy_arms:
       - "Notion"
       - "ClickUP"
       - "GitHub Projects"
-  - name: "ArcGIS"
-    color: "synapse_cyan"
-    items:
-      - "ArcGIS Pro"
-      - "ArcGIS Online"
-      - "Experience Builder"
-      - "ArcGIS API for JavaScript"
 
 # Featured projects shown as constellation stars
 # Each project needs:
