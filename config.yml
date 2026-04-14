@@ -19,9 +19,8 @@ profile:
   company: "Engemap - Engenharia e Aerolevantamento"
   location: "Assis, SP - Brasil"
   bio: |
-    "Apaixonado por tecnologia e inovação, com experiência em desenvolvimento de software e engenharia de dados. 
-    Atualmente focado em criar soluções eficientes e escaláveis para desafios complexos. Sempre buscando aprender e crescer na área de tecnologia."
-  philosophy: '"A tecnologia é minha ferramenta para transformar ideias em soluções práticas e gerar impacto real."'
+    "Atualmente, passo meus dias criando soluções eficientes e escaláveis para problemas que, sinceramente, alguém deveria ter resolvido no Excel há uns 5 anos."
+  philosophy: '"Trocando café por código e ideias exóticas por coisas que (quase) sempre funcionam."'
 
 # Social links displayed at the bottom of the profile
 social:
@@ -50,9 +49,17 @@ galaxy_arms:
     color: "axon_amber"
     items:
       - "Jira"
+      - "Jira Service Desk"
       - "Notion"
       - "ClickUP"
       - "GitHub Projects"
+  - name: "ArcGIS"
+    color: "synapse_cyan"
+    items:
+      - "ArcGIS Pro"
+      - "ArcGIS Online"
+      - "Experience Builder"
+      - "ArcGIS API for JavaScript"
 
 # Featured projects shown as constellation stars
 # Each project needs:
